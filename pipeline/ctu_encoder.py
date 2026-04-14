@@ -12,13 +12,13 @@ Luồng xử lý (Pipeline):
 import numpy as np
 
 # Các cấu trúc dữ liệu lõi
-from quad_tree import QuadNode, QuadTree, PredMode, CTU_SIZE
-from cu_split import split_ctu
-from tu_split import split_tu, reconstruct_cu
+from partitioning.quad_tree import QuadNode, QuadTree, PredMode, CTU_SIZE
+from partitioning.cu_split import split_ctu
+from partitioning.tu_split import split_tu, reconstruct_cu
 
 # Import CÁC HÀM THỰC TẾ từ Loop Filters của bạn
-from deblocking import deblock_frame
-from sao import (
+from loop_filters.deblocking import deblock_frame
+from loop_filters.sao import (
     estimate_sao_params, 
     apply_sao_bo, 
     apply_sao_eo, 

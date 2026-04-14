@@ -62,9 +62,7 @@ from prediction.intra_estimation import (
     _pred_dc,
     _pred_angular,
     PLANAR_MODE, DC_MODE,
-    ANGULAR_START, ANGULAR_END,
     VALID_BLOCK_SIZES,
-    NUM_INTRA_MODES,
 )
 
 # ---------------------------------------------------------------------------

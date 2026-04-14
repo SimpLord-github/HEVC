@@ -58,7 +58,7 @@ Public API
 from __future__ import annotations
 
 import numpy as np
-from typing import Callable, Literal
+from typing import Literal
 
 from partitioning.quad_tree import (
     QuadNode, QuadTree, NodeState, PredMode, PartMode,
